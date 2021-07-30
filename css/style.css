@@ -1,0 +1,174 @@
+/* Navbar Styles */
+nav{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+/* Button Styles */
+.btn{
+    font-weight: 300 !important;
+}
+.honda-button{
+    background-color: #E76F51 !important;
+    border: none !important;
+    outline: none;
+}
+.honda-button:hover{
+    outline: none !important;
+}
+.honda-button-outline{
+    border-color: #E76F51 !important;
+    color: #E76F51 !important;
+}
+.honda-button-outline:hover{
+    background-color: #E76F51 !important;
+    color: white !important;
+    outline: none !important;
+}
+.honda-button:focus, .honda-button:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.honda-button-outline:focus, .honda-button-outline:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+/* Header Styles */
+.honda-header-bg{
+    background-color: rgba(38, 70, 83, 1);
+    color: white;
+}
+.honda-first-header-font{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.honda-first-header-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+}
+.honda-header-big-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.first-header-description{
+    color: rgba(224, 224, 224, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+#bike-img-bg{
+    position: absolute;
+    top: 205px;
+    left: 1555px;
+}
+#bike-img{
+    position: relative;
+}
+/* Fetured Styles */
+#fetured-bike-h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height:72px;
+}
+#fetured-bike-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #E76F51;
+    position: relative;
+}
+#fetured-bike-p::after{
+    content:'';
+    height:2px;
+    width:4.5%;
+    background:#f24432;
+    position:absolute;
+    margin:auto;
+    bottom:-5px;
+    left:0; 
+    right:0;
+}
+.honda-feture-img-grayscale img{
+    filter: grayscale(100%);
+    transition: filter 2s;
+}
+.honda-feture-img-grayscale:hover img{
+    filter: grayscale(0);
+}
+/* New Styles */
+.honda-news-header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #0A0826;
+}
+.honda-news-p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #6C6C6C;
+}
+/* Happy Clints Styles */
+.honda-review-details{
+    color: #6C6C6C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.honda-review-icon{
+    color: #E77C40;
+    font-size: 18px;
+}
+.honda-review-name{
+    color: #23A6F0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+.honda-review-job{
+    color: #252B42;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+.honda-review-h1{
+    color: #0A0826;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 160px;
+    margin-bottom: 52px;
+}
+.honda-review-h1 span{
+    color: #E76F51;
+}
+/* Bonus 1 Styles */
+.honda-bonus h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+/* Bonus 2 Styles */
+.bonus-two-img{
+    transition: filter 2s;
+}
+.bonus-two-img:hover{
+    filter: grayscale(100%);
+}
+/* Accordion Styles */
+.honda-accordion{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #7E848C;
+}
